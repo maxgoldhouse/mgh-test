@@ -1,1 +1,3 @@
 Lets push to openshift
+
+pushTestToGithub Updated images for property 1304 by dklongley
