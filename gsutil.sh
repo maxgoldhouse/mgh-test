@@ -11,4 +11,4 @@ wget --continue --output-document "${CACHED_DOWNLOAD}" "https://storage.googleap
 tar -xaf "${CACHED_DOWNLOAD}" --strip-components=1 --directory "${GSUTIL_DIR}"
 ln -s "${GSUTIL_DIR}/gsutil" "${HOME}/bin/gsutil"
 # check that everything worked
-gsutil version
+~/bin/gsutil version
