@@ -14,3 +14,4 @@ push and see at postbin
 postbingate 2
 
 pushTestToGithub push to build --skip-ci
+pushTestToGithub push to build
